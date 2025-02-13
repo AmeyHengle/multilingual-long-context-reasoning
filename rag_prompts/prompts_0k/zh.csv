@@ -1,0 +1,4501 @@
+id,input_lang,prompt,target,rag_prompt_2,rag_prompt_5,rag_prompt_10
+83_zh,zh,"Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+美英走到厨房。明浩去了卫生间。简走到走廊上。美英朝卧室走去。
+</context>
+
+QUESTION: 明浩在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",浴室,"Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+明浩去了卫生间。 美英朝卧室走去.
+</context>
+
+QUESTION: 明浩在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+明浩去了卫生间。 美英朝卧室走去。 简走到走廊上。 美英走到厨房.
+</context>
+
+QUESTION: 明浩在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+明浩去了卫生间。 美英朝卧室走去。 简走到走廊上。 美英走到厨房.
+</context>
+
+QUESTION: 明浩在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+53_zh,zh,"Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+美英回到卧室。丽华搬到了厨房。丽华搬到办公室。明浩前往办公室。明浩走到走廊。简回到走廊。丽华搬到了卫生间。美英朝走廊走去。健去了花园。明浩去了厨房。
+</context>
+
+QUESTION: 健在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",花园,"Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+健去了花园。 简回到走廊.
+</context>
+
+QUESTION: 健在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+健去了花园。 简回到走廊。 美英朝走廊走去。 明浩去了厨房。 明浩走到走廊.
+</context>
+
+QUESTION: 健在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+健去了花园。 简回到走廊。 美英朝走廊走去。 明浩去了厨房。 明浩走到走廊。 明浩前往办公室。 丽华搬到了卫生间。 美英回到卧室。 丽华搬到办公室。 丽华搬到了厨房.
+</context>
+
+QUESTION: 健在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+70_zh,zh,"Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+明浩向花园走去。坚迁至花园。美英搬到了卧室。简回到办公室。简回到卧室。明浩回到卧室。简去了办公室。美英去了花园。
+</context>
+
+QUESTION: 健在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",办公室,"Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+美英去了花园。 明浩向花园走去.
+</context>
+
+QUESTION: 健在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+美英去了花园。 明浩向花园走去。 坚迁至花园。 明浩回到卧室。 简去了办公室.
+</context>
+
+QUESTION: 健在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+美英去了花园。 明浩向花园走去。 坚迁至花园。 明浩回到卧室。 简去了办公室。 美英搬到了卧室。 简回到卧室。 简回到办公室.
+</context>
+
+QUESTION: 健在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+45_zh,zh,"Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+美英搬到了花园里。简去了卧室。简走向卫生间。健去了花园。简走向卧室。美英去了办公室。美英去了卫生间。美英搬到了厨房。美英去了卧室。美英去了办公室。
+</context>
+
+QUESTION: 梅英在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",办公室,"Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+美英去了卫生间。 简走向卫生间.
+</context>
+
+QUESTION: 梅英在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+美英去了卫生间。 简走向卫生间。 健去了花园。 美英去了卧室。 美英去了办公室.
+</context>
+
+QUESTION: 梅英在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+美英去了卫生间。 简走向卫生间。 健去了花园。 美英去了卧室。 美英去了办公室。 美英去了办公室。 简走向卧室。 简去了卧室。 美英搬到了花园里。 美英搬到了厨房.
+</context>
+
+QUESTION: 梅英在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+44_zh,zh,"Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+明浩回到厨房。明浩搬到了办公室。明浩回到卧室。坚迁至花园。明浩前往办公室。梨花朝花园走去。
+</context>
+
+QUESTION: 明浩在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",办公室,"Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+明浩前往办公室。 明浩回到厨房.
+</context>
+
+QUESTION: 明浩在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+明浩前往办公室。 明浩回到厨房。 明浩回到卧室。 明浩搬到了办公室。 坚迁至花园.
+</context>
+
+QUESTION: 明浩在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+明浩前往办公室。 明浩回到厨房。 明浩回到卧室。 明浩搬到了办公室。 坚迁至花园。 梨花朝花园走去.
+</context>
+
+QUESTION: 明浩在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+39_zh,zh,"Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+丽华前往办公室。梨花朝卧室走去。美英去了花园。美英搬到了厨房。美英去了卫生间。明浩搬到了办公室。简回到办公室。健去了花园。
+</context>
+
+QUESTION: 梅英在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",浴室,"Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+美英去了花园。 美英去了卫生间.
+</context>
+
+QUESTION: 梅英在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+美英去了花园。 美英去了卫生间。 健去了花园。 丽华前往办公室。 梨花朝卧室走去.
+</context>
+
+QUESTION: 梅英在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+美英去了花园。 美英去了卫生间。 健去了花园。 丽华前往办公室。 梨花朝卧室走去。 简回到办公室。 美英搬到了厨房。 明浩搬到了办公室.
+</context>
+
+QUESTION: 梅英在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+22_zh,zh,"Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+梨花走向卫生间。明浩又回到了走廊。美英回到办公室。美英回到走廊。简回到浴室。明浩去了厨房。简搬到了厨房。明浩去了卧室。美英向厨房走去。简搬到了卧室。
+</context>
+
+QUESTION: 健在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",卧室,"Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+美英向厨房走去。 明浩去了卧室.
+</context>
+
+QUESTION: 健在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+美英向厨房走去。 明浩去了卧室。 明浩又回到了走廊。 明浩去了厨房。 美英回到走廊.
+</context>
+
+QUESTION: 健在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+美英向厨房走去。 明浩去了卧室。 明浩又回到了走廊。 明浩去了厨房。 美英回到走廊。 梨花走向卫生间。 简回到浴室。 美英回到办公室。 简搬到了卧室。 简搬到了厨房.
+</context>
+
+QUESTION: 健在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+80_zh,zh,"Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+明浩向卧室走去。美英回到办公室。明浩去了花园。简回到浴室。梨花走到厨房。简走到走廊上。
+</context>
+
+QUESTION: 健在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",门厅,"Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+明浩向卧室走去。 明浩去了花园.
+</context>
+
+QUESTION: 健在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+明浩向卧室走去。 明浩去了花园。 简走到走廊上。 简回到浴室。 美英回到办公室.
+</context>
+
+QUESTION: 健在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+明浩向卧室走去。 明浩去了花园。 简走到走廊上。 简回到浴室。 美英回到办公室。 梨花走到厨房.
+</context>
+
+QUESTION: 健在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+10_zh,zh,"Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+丽华去了厨房。简回到厨房。明浩又回到了走廊。明浩去了卫生间。美英去了卫生间。美英走到卧室。明浩去了厨房。明浩搬到了办公室。
+</context>
+
+QUESTION: 明浩在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",办公室,"Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+明浩去了卫生间。 明浩又回到了走廊.
+</context>
+
+QUESTION: 明浩在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+明浩去了卫生间。 明浩又回到了走廊。 明浩去了厨房。 明浩搬到了办公室。 美英去了卫生间.
+</context>
+
+QUESTION: 明浩在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+明浩去了卫生间。 明浩又回到了走廊。 明浩去了厨房。 明浩搬到了办公室。 美英去了卫生间。 美英走到卧室。 丽华去了厨房。 简回到厨房.
+</context>
+
+QUESTION: 明浩在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+0_zh,zh,"Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+简走到走廊上。梨花向卫生间走去。明浩又回到了卫生间。简搬到了卧室。
+</context>
+
+QUESTION: 丽华在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",浴室,"Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+简走到走廊上。 梨花向卫生间走去.
+</context>
+
+QUESTION: 丽华在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+简走到走廊上。 梨花向卫生间走去。 简搬到了卧室。 明浩又回到了卫生间.
+</context>
+
+QUESTION: 丽华在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about the locations of different individuals mixed with unrelated information. Answer the question based only on these facts. If a person appears in multiple locations, use their most recent location to determine the answer.
+
+<context>
+简走到走廊上。 梨花向卫生间走去。 简搬到了卧室。 明浩又回到了卫生间.
+</context>
+
+QUESTION: 丽华在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+979_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+国伟在办公室。国伟向厨房走去。国伟在办公室。国伟在学校里。卫国去公园旅游。梨花走到厨房。国伟搬到了厨房。丽华去了办公室。国伟要么在电影院，要么在学校。卫国在学校里。
+</context>
+
+QUESTION: 丽华在办公室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",是的,"Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+丽华去了办公室。 国伟在办公室.
+</context>
+
+QUESTION: 丽华在办公室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+丽华去了办公室。 国伟在办公室。 国伟在办公室。 卫国在学校里。 国伟在学校里.
+</context>
+
+QUESTION: 丽华在办公室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+丽华去了办公室。 国伟在办公室。 国伟在办公室。 卫国在学校里。 国伟在学校里。 国伟要么在电影院，要么在学校。 国伟向厨房走去。 国伟搬到了厨房。 梨花走到厨房。 卫国去公园旅游.
+</context>
+
+QUESTION: 丽华在办公室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+937_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+丽华搬到了学校。卫国去了电影院。秀英回到公园。秀英在电影院里。卫国要么在学校，要么在厨房。秀英在办公室。
+</context>
+
+QUESTION: 卫国在学校吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",或许,"Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+丽华搬到了学校。 卫国要么在学校，要么在厨房.
+</context>
+
+QUESTION: 卫国在学校吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+丽华搬到了学校。 卫国要么在学校，要么在厨房。 卫国去了电影院。 秀英在电影院里。 秀英回到公园.
+</context>
+
+QUESTION: 卫国在学校吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+丽华搬到了学校。 卫国要么在学校，要么在厨房。 卫国去了电影院。 秀英在电影院里。 秀英回到公园。 秀英在办公室.
+</context>
+
+QUESTION: 卫国在学校吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+965_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+卫国搬到了公园。秀英在学校里。丽华回到了学校。国伟要么在卧室，要么在公园。卫国要么在公园，要么在电影院。国伟回到办公室。国伟在公园里。国伟前往电影院。
+</context>
+
+QUESTION: 国伟在办公室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",不,"Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+国伟回到办公室。 秀英在学校里.
+</context>
+
+QUESTION: 国伟在办公室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+国伟回到办公室。 秀英在学校里。 国伟前往电影院。 国伟在公园里。 国伟要么在卧室，要么在公园.
+</context>
+
+QUESTION: 国伟在办公室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+国伟回到办公室。 秀英在学校里。 国伟前往电影院。 国伟在公园里。 国伟要么在卧室，要么在公园。 卫国搬到了公园。 丽华回到了学校。 卫国要么在公园，要么在电影院.
+</context>
+
+QUESTION: 国伟在办公室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+954_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+秀英回到电影院。卫国前往厨房。国伟搬到了卧室。秀英回到厨房。丽华在厨房里。卫国回到公园。丽华在卧室里。国伟要么在公园，要么在办公室。
+</context>
+
+QUESTION: 国伟在办公室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",或许,"Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+国伟要么在公园，要么在办公室。 秀英回到电影院.
+</context>
+
+QUESTION: 国伟在办公室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+国伟要么在公园，要么在办公室。 秀英回到电影院。 秀英回到厨房。 国伟搬到了卧室。 卫国前往厨房.
+</context>
+
+QUESTION: 国伟在办公室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+国伟要么在公园，要么在办公室。 秀英回到电影院。 秀英回到厨房。 国伟搬到了卧室。 卫国前往厨房。 卫国回到公园。 丽华在卧室里。 丽华在厨房里.
+</context>
+
+QUESTION: 国伟在办公室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+915_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+卫国在学校里。梨花走到厨房。国伟在公园里。国伟在学校里。卫国在电影院里。卫国在办公室。
+</context>
+
+QUESTION: 国伟在电影院吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",不,"Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+卫国在电影院里。 国伟在公园里.
+</context>
+
+QUESTION: 国伟在电影院吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+卫国在电影院里。 国伟在公园里。 国伟在学校里。 卫国在学校里。 卫国在办公室.
+</context>
+
+QUESTION: 国伟在电影院吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+卫国在电影院里。 国伟在公园里。 国伟在学校里。 卫国在学校里。 卫国在办公室。 梨花走到厨房.
+</context>
+
+QUESTION: 国伟在电影院吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+920_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+丽华去了办公室。国伟回到厨房。卫国行至卧室。国伟一行人来到了学校。丽华在公园里。国伟前往电影院。丽华在电影院里。丽华要么在办公室，要么在公园。
+</context>
+
+QUESTION: 国伟在电影院吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",是的,"Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+国伟前往电影院。 丽华在电影院里.
+</context>
+
+QUESTION: 国伟在电影院吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+国伟前往电影院。 丽华在电影院里。 国伟一行人来到了学校。 卫国行至卧室。 丽华在公园里.
+</context>
+
+QUESTION: 国伟在电影院吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+国伟前往电影院。 丽华在电影院里。 国伟一行人来到了学校。 卫国行至卧室。 丽华在公园里。 丽华要么在办公室，要么在公园。 国伟回到厨房。 丽华去了办公室.
+</context>
+
+QUESTION: 国伟在电影院吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+999_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+秀英在公园里。卫国回到办公室。国伟在公园里。梨花回到卧室。秀英回到了学校。卫国在公园里。国伟在办公室。卫国在厨房里。梨花回到厨房。国伟在卧室里。
+</context>
+
+QUESTION: 国伟在学校吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",不,"Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+秀英回到了学校。 秀英在公园里.
+</context>
+
+QUESTION: 国伟在学校吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+秀英回到了学校。 秀英在公园里。 国伟在公园里。 国伟在办公室。 国伟在卧室里.
+</context>
+
+QUESTION: 国伟在学校吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+秀英回到了学校。 秀英在公园里。 国伟在公园里。 国伟在办公室。 国伟在卧室里。 卫国在公园里。 卫国回到办公室。 卫国在厨房里。 梨花回到卧室。 梨花回到厨房.
+</context>
+
+QUESTION: 国伟在学校吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+925_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+卫国要么在卧室，要么在电影院。丽华去公园旅游。国伟搬到了公园。丽华前往办公室。卫国要么在电影院，要么在学校。国伟去了办公室。卫国要么在厨房，要么在厨房。丽华在厨房里。梨花要么在公园，要么在电影院。国伟在学校里。
+</context>
+
+QUESTION: 丽华在厨房吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",不,"Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+丽华在厨房里。 卫国要么在厨房，要么在厨房.
+</context>
+
+QUESTION: 丽华在厨房吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+丽华在厨房里。 卫国要么在厨房，要么在厨房。 丽华前往办公室。 丽华去公园旅游。 卫国要么在卧室，要么在电影院.
+</context>
+
+QUESTION: 丽华在厨房吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+丽华在厨房里。 卫国要么在厨房，要么在厨房。 丽华前往办公室。 丽华去公园旅游。 卫国要么在卧室，要么在电影院。 国伟在学校里。 国伟去了办公室。 国伟搬到了公园。 卫国要么在电影院，要么在学校。 梨花要么在公园，要么在电影院.
+</context>
+
+QUESTION: 丽华在厨房吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+956_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+卫国要么在卧室，要么在卧室。国伟前往学校。国伟一行人来到了公园。秀英前往电影院。秀英搬到了学校。卫国去了电影院。丽华一路向学校走去。卫国回到办公室。国伟要么在厨房，要么在办公室。卫国在学校里。
+</context>
+
+QUESTION: 国伟在公园里吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",不,"Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+国伟一行人来到了公园。 秀英前往电影院.
+</context>
+
+QUESTION: 国伟在公园里吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+国伟一行人来到了公园。 秀英前往电影院。 国伟前往学校。 卫国去了电影院。 卫国在学校里.
+</context>
+
+QUESTION: 国伟在公园里吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+国伟一行人来到了公园。 秀英前往电影院。 国伟前往学校。 卫国去了电影院。 卫国在学校里。 秀英搬到了学校。 丽华一路向学校走去。 国伟要么在厨房，要么在办公室。 卫国回到办公室。 卫国要么在卧室，要么在卧室.
+</context>
+
+QUESTION: 国伟在公园里吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+917_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+梨花要么在公园，要么在卧室。国伟前往学校。丽华在卧室里。秀英在卧室里。卫国去了电影院。卫国要么在学校，要么在办公室。
+</context>
+
+QUESTION: 丽华在厨房吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",不,"Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+丽华在卧室里。 秀英在卧室里.
+</context>
+
+QUESTION: 丽华在厨房吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+丽华在卧室里。 秀英在卧室里。 卫国去了电影院。 梨花要么在公园，要么在卧室。 国伟前往学校.
+</context>
+
+QUESTION: 丽华在厨房吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question based only on the given facts. If the necessary information is not explicitly provided, respond with ""I don't know (IDK)""
+
+<context>
+丽华在卧室里。 秀英在卧室里。 卫国去了电影院。 梨花要么在公园，要么在卧室。 国伟前往学校。 卫国要么在学校，要么在办公室.
+</context>
+
+QUESTION: 丽华在厨房吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+148_zh,zh,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+健行至花园。美英去了办公室。美英走到走廊上。丽华去了办公室。美英去那里接​​了牛奶。美英把牛奶掉在那里了。梨花朝卧室走去。美英在那里买了牛奶。健搬到了办公室。美英游至花园。丽华向厨房走去。丽华把足球带到了那里。美英把牛奶倒掉了。明浩走到走廊上。丽华把足球扔掉了。梨花游至花园。
+</context>
+
+QUESTION: 足球在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",厨房,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+丽华把足球带到了那里。 丽华把足球扔掉了.
+</context>
+
+QUESTION: 足球在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+丽华把足球带到了那里。 丽华把足球扔掉了。 美英游至花园。 美英去那里接​​了牛奶。 美英去了办公室.
+</context>
+
+QUESTION: 足球在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+丽华把足球带到了那里。 丽华把足球扔掉了。 美英游至花园。 美英去那里接​​了牛奶。 美英去了办公室。 美英走到走廊上。 美英把牛奶掉在那里了。 健行至花园。 梨花朝卧室走去。 健搬到了办公室.
+</context>
+
+QUESTION: 足球在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+128_zh,zh,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+美英走到走廊上。梨花把苹果带到了那里。坚迁至花园。简搬到了卧室。明浩搬到了厨房。健去了花园。梨花把苹果放在那里。梨花捡起了那里的苹果。丽华走到走廊上。明浩前往办公室。
+</context>
+
+QUESTION: 苹果在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",门厅,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+梨花把苹果放在那里。 梨花捡起了那里的苹果.
+</context>
+
+QUESTION: 苹果在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+梨花把苹果放在那里。 梨花捡起了那里的苹果。 梨花把苹果带到了那里。 健去了花园。 坚迁至花园.
+</context>
+
+QUESTION: 苹果在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+梨花把苹果放在那里。 梨花捡起了那里的苹果。 梨花把苹果带到了那里。 健去了花园。 坚迁至花园。 美英走到走廊上。 丽华走到走廊上。 明浩前往办公室。 明浩搬到了厨房。 简搬到了卧室.
+</context>
+
+QUESTION: 苹果在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+185_zh,zh,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+明浩向花园走去。丽华走到走廊上。明浩向卧室走去。健在那里捡起了足球。健把足球扔掉了。明浩去了走廊。美英回到卫生间。健在那里捡起了足球。健行至花园。美英回到卧室。简走向浴室。明浩向卧室走去。美英搬到了花园里。明浩搬到了花园里。简前往办公室。明浩去了厨房。梨花走到厨房。简行去洗手间。梨花去了卧室。健拿起了那里的苹果。美英回到厨房。明浩移步去卫生间。美英前往办公室。明浩去了厨房。美英回到卫生间。美英走到厨房。明浩接了那里的牛奶。明浩搬到了办公室。
+</context>
+
+QUESTION: 牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",办公室,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+明浩接了那里的牛奶。 梨花走到厨房.
+</context>
+
+QUESTION: 牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+明浩接了那里的牛奶。 梨花走到厨房。 美英走到厨房。 美英回到厨房。 简行去洗手间.
+</context>
+
+QUESTION: 牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+明浩接了那里的牛奶。 梨花走到厨房。 美英走到厨房。 美英回到厨房。 简行去洗手间。 健拿起了那里的苹果。 美英回到卫生间。 美英回到卫生间。 明浩去了厨房。 明浩去了厨房.
+</context>
+
+QUESTION: 牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+183_zh,zh,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+明浩去了走廊。丽华搬到办公室。美英捡起了那里的足球。梨花抓起那里的牛奶。梨花在那里得到了苹果。美英回到走廊。简去了办公室。美英把足球留在那里。简前往厨房。美英搬到了厨房。明浩捡起了那里的足球。美英回到办公室。明浩移步去卫生间。美英朝卧室走去。
+</context>
+
+QUESTION: 足球在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",浴室,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+美英捡起了那里的足球。 美英把足球留在那里.
+</context>
+
+QUESTION: 足球在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+美英捡起了那里的足球。 美英把足球留在那里。 明浩捡起了那里的足球。 美英回到走廊。 美英朝卧室走去.
+</context>
+
+QUESTION: 足球在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+美英捡起了那里的足球。 美英把足球留在那里。 明浩捡起了那里的足球。 美英回到走廊。 美英朝卧室走去。 梨花抓起那里的牛奶。 美英回到办公室。 梨花在那里得到了苹果。 明浩移步去卫生间。 简去了办公室.
+</context>
+
+QUESTION: 足球在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+114_zh,zh,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+明浩去了花园。美英回到卧室。简行进了卧室。美英抓起那里的苹果。明浩去了厨房。美英留下了苹果。
+</context>
+
+QUESTION: 苹果在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",卧室,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+美英抓起那里的苹果。 美英留下了苹果.
+</context>
+
+QUESTION: 苹果在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+美英抓起那里的苹果。 美英留下了苹果。 明浩去了花园。 明浩去了厨房。 美英回到卧室.
+</context>
+
+QUESTION: 苹果在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+美英抓起那里的苹果。 美英留下了苹果。 明浩去了花园。 明浩去了厨房。 美英回到卧室。 简行进了卧室.
+</context>
+
+QUESTION: 苹果在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+109_zh,zh,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+简走到走廊上。简回到浴室。简抓起那里的牛奶。美英回到办公室。美英向厨房走去。美英在那里拿到了苹果。美英把苹果掉在那里了。健把牛奶掉了。梨花回到花园。美英朝走廊走去。美英在那里拿到了足球。丽华搬到了厨房。
+</context>
+
+QUESTION: 牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",浴室,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+健把牛奶掉了。 简抓起那里的牛奶.
+</context>
+
+QUESTION: 牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+健把牛奶掉了。 简抓起那里的牛奶。 美英向厨房走去。 美英在那里拿到了苹果。 美英把苹果掉在那里了.
+</context>
+
+QUESTION: 牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+健把牛奶掉了。 简抓起那里的牛奶。 美英向厨房走去。 美英在那里拿到了苹果。 美英把苹果掉在那里了。 丽华搬到了厨房。 美英在那里拿到了足球。 简回到浴室。 美英朝走廊走去。 梨花回到花园.
+</context>
+
+QUESTION: 牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+142_zh,zh,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+丽华前往办公室。美英去那里接​​了牛奶。简回到厨房。美英在那里拿到了苹果。丽华在那里拿到了足球。梨花回到花园。明浩去了卫生间。简去了卫生间。美英回到花园。美英把苹果扔掉了。明浩回到卧室。美英回到卫生间。
+</context>
+
+QUESTION: 苹果在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",花园,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+美英在那里拿到了苹果。 美英把苹果扔掉了.
+</context>
+
+QUESTION: 苹果在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+美英在那里拿到了苹果。 美英把苹果扔掉了。 梨花回到花园。 美英回到花园。 美英去那里接​​了牛奶.
+</context>
+
+QUESTION: 苹果在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+美英在那里拿到了苹果。 美英把苹果扔掉了。 梨花回到花园。 美英回到花园。 美英去那里接​​了牛奶。 丽华在那里拿到了足球。 美英回到卫生间。 丽华前往办公室。 简回到厨房。 简去了卫生间.
+</context>
+
+QUESTION: 苹果在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+121_zh,zh,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+梨花行至卧室。明浩抓起那里的苹果。明浩去了花园。健前往办公室。明浩留下了苹果。简走到走廊上。美英去了办公室。明浩向走廊走去。明浩去了厨房。简走向厨房。丽华搬到办公室。梨花回到花园。丽华搬到办公室。简回到浴室。健前往办公室。明浩又回到了花园。简前往厨房。梨花去了卧室。明浩移步去卫生间。明浩捡起了那里的足球。美英走到走廊。明浩接了那里的牛奶。明浩把牛奶掉了。明浩把牛奶拿过去了。明浩搬到了卧室。美英去了花园。美英走到厨房。美英前往办公室。
+</context>
+
+QUESTION: 牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",卧室,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+明浩接了那里的牛奶。 明浩把牛奶拿过去了.
+</context>
+
+QUESTION: 牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+明浩接了那里的牛奶。 明浩把牛奶拿过去了。 明浩把牛奶掉了。 美英走到厨房。 简前往厨房.
+</context>
+
+QUESTION: 牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+明浩接了那里的牛奶。 明浩把牛奶拿过去了。 明浩把牛奶掉了。 美英走到厨房。 简前往厨房。 简走向厨房。 明浩去了厨房。 梨花去了卧室。 明浩抓起那里的苹果。 简回到浴室.
+</context>
+
+QUESTION: 牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+175_zh,zh,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+美英游至花园。丽华把足球带到了那里。美英拿起那里的苹果。明浩去了办公室。丽华放下了足球。美英走到厨房。明浩那里有牛奶。梨花搬到了花园里。美英游至花园。明浩把牛奶倒掉了。明浩走向卫生间。美英回到厨房。
+</context>
+
+QUESTION: 牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",办公室,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+明浩那里有牛奶。 明浩把牛奶倒掉了.
+</context>
+
+QUESTION: 牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+明浩那里有牛奶。 明浩把牛奶倒掉了。 美英走到厨房。 美英回到厨房。 美英拿起那里的苹果.
+</context>
+
+QUESTION: 牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+明浩那里有牛奶。 明浩把牛奶倒掉了。 美英走到厨房。 美英回到厨房。 美英拿起那里的苹果。 美英游至花园。 美英游至花园。 丽华把足球带到了那里。 明浩走向卫生间。 丽华放下了足球.
+</context>
+
+QUESTION: 牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+193_zh,zh,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+简把足球带到了那里。简搬到了卧室。健把足球扔掉了。美英去了卧室。简把足球带到了那里。健把足球扔掉了。美英把足球带到了那里。梅英离开了足球。
+</context>
+
+QUESTION: 足球在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",卧室,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+美英把足球带到了那里。 简把足球带到了那里.
+</context>
+
+QUESTION: 足球在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+美英把足球带到了那里。 简把足球带到了那里。 简把足球带到了那里。 健把足球扔掉了。 健把足球扔掉了.
+</context>
+
+QUESTION: 足球在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining two relevant facts.
+
+<context>
+美英把足球带到了那里。 简把足球带到了那里。 简把足球带到了那里。 健把足球扔掉了。 健把足球扔掉了。 梅英离开了足球。 美英去了卧室。 简搬到了卧室.
+</context>
+
+QUESTION: 足球在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+298_zh,zh,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+美英走向卫生间。美英搬到了厨房。美英去了卧室。明浩拿起了苹果。梨花回到卫生间。丽华抓住了足球。简行去洗手间。丽华离开了足球。美英回到花园。丽华前往办公室。简走向卧室。明浩走到走廊上。明浩放下了苹果。梨花行至卧室。美英去那里接​​了牛奶。美英朝卧室走去。健前往办公室。坚迁至花园。美英把牛奶留在那里。丽花拿起牛奶。简回到走廊。明浩去了卫生间。美英回到花园。健搬到了办公室。美英走到厨房。简回到厨房。明浩接过足球。健前往办公室。美英走到走廊。明浩走到走廊上。明浩拿到了苹果。梨花朝走廊走去。梨花回到厨房。简走向卧室。丽花把牛奶倒掉了。简游至花园。美英去了办公室。明浩把苹果扔在那里。丽华去了卫生间。简去了卫生间。明浩向卧室走去。梨花行至卧室。梨花往走廊走去。丽华前往办公室。简走到走廊上。丽华搬到了卫生间。明浩把足球掉在那里了。明浩抓住了足球。明浩去了卫生间。美英走到走廊。美英拿起那里的苹果。明浩去了办公室。健行至花园。美英向卫生间走去。丽华前往办公室。美英把苹果掉了下来。明浩又回到了走廊。梨花朝卧室走去。明浩回到办公室。梨花向卫生间走去。梨花抓起苹果。简回到走廊。明浩去了卧室。梨花掉下了苹果。简走向卫生间。明浩去了卫生间。梨花接过苹果。明浩扔掉了足球。
+</context>
+
+QUESTION: 浴室之前的足球在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",卧室,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+简行去洗手间。 美英向卫生间走去.
+</context>
+
+QUESTION: 浴室之前的足球在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+简行去洗手间。 美英向卫生间走去。 美英走向卫生间。 梨花回到卫生间。 简去了卫生间.
+</context>
+
+QUESTION: 浴室之前的足球在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+简行去洗手间。 美英向卫生间走去。 美英走向卫生间。 梨花回到卫生间。 简去了卫生间。 丽华去了卫生间。 梨花向卫生间走去。 简走向卫生间。 丽华搬到了卫生间。 明浩把足球掉在那里了.
+</context>
+
+QUESTION: 浴室之前的足球在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+204_zh,zh,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+健捡起了足球。健把足球扔在那里了。美英前往办公室。明浩搬到了厨房。明浩去了花园。简前往办公室。美英游至花园。美英前往办公室。明浩去了厨房。美英接过牛奶。丽华回到办公室。梨花得到了苹果。明浩去了办公室。简去了卧室。健接过足球。明浩又回到了走廊。美英回到卧室。美英把牛奶掉了。美英拿到了牛奶。梨花把苹果扔掉了。美英把牛奶倒掉了。健放下了足球。美英去了厨房。简搬到了厨房。梨花拿起苹果。明浩移步去卫生间。明浩去了花园。梨花留下了苹果。梨花朝卧室走去。梨花回到卫生间。美英朝走廊走去。美英去了卫生间。明浩去了走廊。美英走到卧室。美英一把抓住了那里的足球。简前往办公室。美英把足球放在那里。健接过苹果。简走向厨房。健把苹果扔在那里。丽华回到办公室。简回到走廊。明浩搬到了花园里。美英拿到了牛奶。美英走向卫生间。美英前往办公室。美英留下了牛奶。美英回到卫生间。明浩去了卫生间。梨花走向卫生间。健去了花园。明浩去了厨房。明浩又回到了走廊。简走向厨房。简前往办公室。简回到浴室。健搬到了办公室。美英搬到了卧室。美英一把抓住了足球。丽华搬到了厨房。简游至花园。简走向浴室。美英去了花园。美英去了卧室。美英走到走廊。丽华去了办公室。简行进了卧室。美英回到卫生间。梅英离开了足球。明浩搬到了办公室。丽花拿起牛奶。美英接过足球。明浩回到卧室。梨花回到花园。美英把足球扔掉了。丽花把牛奶掉了。梨花回到卫生间。丽华在那里捡起了足球。丽华把足球扔在那里。梨花回到走廊。丽华去了厨房。美英接过足球。美英搬到了厨房。美英回到卫生间。
+</context>
+
+QUESTION: 浴室之前的足球在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",厨房,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+美英去了卫生间。 美英把足球放在那里.
+</context>
+
+QUESTION: 浴室之前的足球在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+美英去了卫生间。 美英把足球放在那里。 美英回到卫生间。 美英回到卫生间。 美英回到卫生间.
+</context>
+
+QUESTION: 浴室之前的足球在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+美英去了卫生间。 美英把足球放在那里。 美英回到卫生间。 美英回到卫生间。 美英回到卫生间。 美英走向卫生间。 梨花回到卫生间。 梨花回到卫生间。 健把足球扔在那里了。 简回到浴室.
+</context>
+
+QUESTION: 浴室之前的足球在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+233_zh,zh,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+健拿起了那里的苹果。美英接过牛奶。梨花朝走廊走去。健放下了苹果。明浩移步去卫生间。美英放下牛奶。简走向卧室。美英在那里买了牛奶。简走到走廊上。美英放下牛奶。简搬到了厨房。明浩去了办公室。健接过牛奶。健前往办公室。丽华搬到办公室。简得到了苹果。美英回到走廊。美英一路前往办公室。简行进了卧室。美英朝走廊走去。明浩去了走廊。美英回到花园。明浩又回到了花园。美英走到卧室。健把苹果扔掉了。美英搬到了厨房。简抓起苹果。明浩又回到了卫生间。明浩又回到了走廊。梨花回到卧室。健把苹果掉了。梨花往走廊走去。美英去了办公室。美英去了走廊。简走到走廊上。健把牛奶掉了。丽华在那里买了牛奶。丽花把牛奶倒掉了。梨花抓起牛奶。简走向浴室。明浩去了厨房。丽花把牛奶掉在那里了。健去了花园。明浩前往办公室。美英接过牛奶。美英回到卧室。美英向花园走去。美英放下牛奶。
+</context>
+
+QUESTION: 花园之前的牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",卧室,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+梨花抓起牛奶。 丽花把牛奶掉在那里了.
+</context>
+
+QUESTION: 花园之前的牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+梨花抓起牛奶。 丽花把牛奶掉在那里了。 健接过牛奶。 健把牛奶掉了。 美英接过牛奶.
+</context>
+
+QUESTION: 花园之前的牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+梨花抓起牛奶。 丽花把牛奶掉在那里了。 健接过牛奶。 健把牛奶掉了。 美英接过牛奶。 美英接过牛奶。 美英在那里买了牛奶。 美英放下牛奶。 美英放下牛奶。 美英放下牛奶.
+</context>
+
+QUESTION: 花园之前的牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+261_zh,zh,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+明浩去了厨房。梨花抓起牛奶。明浩又回到了走廊。简搬到了厨房。明浩前往办公室。简抓起苹果。健行至花园。健把苹果掉了。简走向走廊。丽花把牛奶掉了。明浩又回到了卫生间。梨花抓起那里的牛奶。梨花回到花园。梨花往走廊走去。
+</context>
+
+QUESTION: 走廊前的牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",花园,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+梨花抓起那里的牛奶。 梨花抓起牛奶.
+</context>
+
+QUESTION: 走廊前的牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+梨花抓起那里的牛奶。 梨花抓起牛奶。 丽花把牛奶掉了。 梨花往走廊走去。 简走向走廊.
+</context>
+
+QUESTION: 走廊前的牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+梨花抓起那里的牛奶。 梨花抓起牛奶。 丽花把牛奶掉了。 梨花往走廊走去。 简走向走廊。 明浩去了厨房。 简搬到了厨房。 健行至花园。 明浩又回到了走廊。 梨花回到花园.
+</context>
+
+QUESTION: 走廊前的牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+293_zh,zh,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+明浩去了走廊。明浩在那里拿到了足球。简又回到了花园。丽华回到办公室。简去了卫生间。明浩又回到了卫生间。健前往办公室。丽华去了卫生间。明浩前往办公室。美英回到卧室。梨花走到厨房。梨花走到走廊。美英游至花园。美英走到卧室。美英向卫生间走去。美英搬到了办公室。丽华搬到了卫生间。梨花走到走廊。明浩离开了足球。明浩接过足球。明浩放下了足球。明浩向走廊走去。简回到卧室。梨花行至卧室。梨花拿起苹果。梨花游至花园。梨花回到走廊。丽华搬到了卧室。美英把足球带到了那里。梨花掉下了苹果。梨花接过苹果。简回到浴室。梅英离开了足球。梨花把苹果放在那里。简回到厨房。美英走到走廊。健搬到了办公室。简抓住了足球。梨花走向卫生间。吉安离开了足球。明浩去了厨房。简去了卫生间。美英搬到了卧室。美英拿起苹果。美英把苹果扔掉了。明浩走向卫生间。美英拿起苹果。美英把苹果扔掉了。美英抓起那里的苹果。美英游至花园。美英把苹果掉在那里了。明浩去了卧室。简又回到了花园。美英前往办公室。简得到了苹果。明浩向走廊走去。美英搬到了卧室。健放下了苹果。简回到浴室。美英向卫生间走去。美英向花园走去。美英拿起苹果。梨花朝卧室走去。美英前往办公室。美英把苹果扔掉了。美英搬到了厨房。明浩走向卫生间。美英回到卧室。梨花搬到了花园里。简搬到了厨房。健行至花园。明浩走到走廊。美英搬到了厨房。简行进了卧室。美英抓起牛奶。梨花朝走廊走去。美英游至花园。梨花回到卫生间。美英去了办公室。坚迁至花园。美英回到卫生间。美英朝卧室走去。美英把牛奶留在那里。简前往办公室。
+</context>
+
+QUESTION: 办公室前的牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",花园,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+美英抓起牛奶。 美英把牛奶留在那里.
+</context>
+
+QUESTION: 办公室前的牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+美英抓起牛奶。 美英把牛奶留在那里。 健前往办公室。 美英去了办公室。 健搬到了办公室.
+</context>
+
+QUESTION: 办公室前的牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+美英抓起牛奶。 美英把牛奶留在那里。 健前往办公室。 美英去了办公室。 健搬到了办公室。 美英前往办公室。 美英前往办公室。 简前往办公室。 梨花走到厨房。 美英搬到了办公室.
+</context>
+
+QUESTION: 办公室前的牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+284_zh,zh,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+美英拿起牛奶。健接过苹果。丽华拿到了足球。美英游至花园。丽华前往办公室。健把苹果扔掉了。丽华搬到了厨房。简在那里得到了苹果。健留下了苹果。美英朝走廊走去。健拿起了苹果。美英把牛奶掉在那里了。美英向厨房走去。明浩向厨房走去。简走到走廊上。丽华走到走廊上。
+</context>
+
+QUESTION: 走廊前的牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",花园,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+美英把牛奶掉在那里了。 美英拿起牛奶.
+</context>
+
+QUESTION: 走廊前的牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+美英把牛奶掉在那里了。 美英拿起牛奶。 美英向厨房走去。 美英朝走廊走去。 丽华走到走廊上.
+</context>
+
+QUESTION: 走廊前的牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+美英把牛奶掉在那里了。 美英拿起牛奶。 美英向厨房走去。 美英朝走廊走去。 丽华走到走廊上。 简走到走廊上。 明浩向厨房走去。 丽华搬到了厨房。 美英游至花园。 健接过苹果.
+</context>
+
+QUESTION: 走廊前的牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+251_zh,zh,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+简拿到了牛奶。丽华拿到了足球。梨花接过苹果。丽华放下了足球。梨花留下了苹果。美英搬到了卧室。简走向卫生间。丽华拿到了足球。丽华搬到了卫生间。简去了办公室。丽华回到办公室。梨花得到了苹果。梨花走向卫生间。美英向花园走去。梨花放下了苹果。简去了厨房。健放下牛奶。明浩接过牛奶。梨花拿起苹果。简走向走廊。明浩去了花园。简游至花园。简回到厨房。明浩又回到了卫生间。明浩留下了牛奶。明浩拿起牛奶。美英去了厨房。简回到办公室。明浩把牛奶掉了。美英前往办公室。简走向卧室。简游至花园。丽花拿到了牛奶。美英朝卧室走去。明浩去了走廊。美英走向卫生间。美英一路前往办公室。简走向卫生间。梨花把苹果扔掉了。梨花拿起苹果。丽花留下了牛奶。美英回到卧室。丽花拿到了牛奶。丽华把足球放在那里。吉安得到了足球。丽花放下牛奶。简把足球留在那里。梨花掉下了苹果。梨花抓起牛奶。美英向卫生间走去。丽华拿到了足球。丽华搬到了卧室。明浩向厨房走去。美英接过苹果。美英把苹果掉了下来。健拿起了苹果。美英走到厨房。健搬到了办公室。健把苹果掉了。健接过苹果。健把苹果掉了。丽花把牛奶放在那里。丽华搬到了厨房。健拿起了那里的苹果。健放下了苹果。美英朝卧室走去。明浩回到办公室。丽华放下了足球。梨花回到卧室。简得到了苹果。明浩向走廊走去。简回到浴室。
+</context>
+
+QUESTION: 厨房之前的足球在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",卧室,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+美英去了厨房。 美英走到厨房.
+</context>
+
+QUESTION: 厨房之前的足球在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+美英去了厨房。 美英走到厨房。 丽华把足球放在那里。 简去了厨房。 简回到厨房.
+</context>
+
+QUESTION: 厨房之前的足球在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+美英去了厨房。 美英走到厨房。 丽华把足球放在那里。 简去了厨房。 简回到厨房。 吉安得到了足球。 丽华搬到了厨房。 丽华拿到了足球。 丽华拿到了足球。 丽华拿到了足球.
+</context>
+
+QUESTION: 厨房之前的足球在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+294_zh,zh,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+美英拿到了牛奶。梨花行至卧室。梨花游至花园。简走向走廊。美英把牛奶倒掉了。梨花往走廊走去。明浩去了卧室。明浩走到走廊。明浩走向卫生间。明浩搬到了花园里。梨花回到花园。明浩走到走廊。美英回到办公室。美英搬到了卧室。梨花回到走廊。美英搬到了办公室。美英去了走廊。美英走到厨房。美英走到卧室。健前往办公室。美英接过足球。简游至花园。美英把足球留在那里。简行去洗手间。简前往办公室。简走向浴室。美英朝走廊走去。简又回到了花园。美英前往办公室。梨花去了花园。明浩去了卧室。丽华前往办公室。明浩去了卫生间。梨花向卫生间走去。丽华前往办公室。明浩去了厨房。美英搬到了卧室。梨花朝卧室走去。简行进了卧室。美英向卫生间走去。简把足球带到了那里。美英游至花园。简走到走廊上。明浩向花园走去。美英走到卧室。简搬到了厨房。健拿起了苹果。美英去了花园。健把足球扔掉了。丽华回到办公室。健把苹果扔掉了。简去了卧室。简走向卫生间。明浩走到走廊上。简又回到了花园。健前往办公室。美英朝卧室走去。美英走到走廊上。美英搬到了办公室。美英回到厨房。明浩回到办公室。美英接过牛奶。简回到浴室。简又回到了花园。美英把牛奶掉了。美英去了办公室。简行进了卧室。简走向走廊。明浩去了花园。梨花朝走廊走去。美英去了卫生间。明浩走到走廊。明浩向厨房走去。明浩接过牛奶。明浩拿起了足球。明浩拿起了苹果。明浩前往办公室。简去了卫生间。丽华搬到办公室。美英走到卧室。明浩把苹果留在那里。明浩拿到了苹果。丽华搬到了卧室。美英走向卫生间。明浩把苹果掉了下来。美英走到走廊。坚迁至花园。明浩搬到了花园里。美英搬到了办公室。丽华去了办公室。美英抓起苹果。明浩放下牛奶。梨花回到走廊。梨花回到卧室。
+</context>
+
+QUESTION: 花园之前的牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",办公室,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+美英拿到了牛奶。 美英接过牛奶.
+</context>
+
+QUESTION: 花园之前的牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+美英拿到了牛奶。 美英接过牛奶。 美英把牛奶倒掉了。 美英把牛奶掉了。 明浩接过牛奶.
+</context>
+
+QUESTION: 花园之前的牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+美英拿到了牛奶。 美英接过牛奶。 美英把牛奶倒掉了。 美英把牛奶掉了。 明浩接过牛奶。 明浩放下牛奶。 坚迁至花园。 简游至花园。 梨花去了花园。 美英去了花园.
+</context>
+
+QUESTION: 花园之前的牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+210_zh,zh,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+简走向厨房。美英回到厨房。明浩向厨房走去。丽华走到走廊上。美英去了办公室。梨花朝卧室走去。美英向花园走去。健前往办公室。丽华去了办公室。梨花朝走廊走去。梨花朝花园走去。明浩前往办公室。简拿到了牛奶。简去了厨房。简搬到了卧室。梨花回到卧室。
+</context>
+
+QUESTION: 卧室前的牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",厨房,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+简拿到了牛奶。 梨花朝卧室走去.
+</context>
+
+QUESTION: 卧室前的牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+简拿到了牛奶。 梨花朝卧室走去。 梨花回到卧室。 简搬到了卧室。 简去了厨房.
+</context>
+
+QUESTION: 卧室前的牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+简拿到了牛奶。 梨花朝卧室走去。 梨花回到卧室。 简搬到了卧室。 简去了厨房。 美英回到厨房。 简走向厨房。 梨花朝走廊走去。 明浩向厨房走去。 丽华走到走廊上.
+</context>
+
+QUESTION: 卧室前的牛奶在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+288_zh,zh,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+丽华去了办公室。丽华去了厨房。美英走到走廊。健接过足球。梨花抓起那里的牛奶。丽花留下了牛奶。简抓起牛奶。明浩去了卧室。明浩回到厨房。美英走到卧室。健把足球扔掉了。梨花往走廊走去。健把牛奶倒掉了。明浩又回到了卫生间。美英搬到了厨房。美英接过足球。简拿起牛奶。健放下牛奶。丽华搬到办公室。明浩去了卧室。简拿起牛奶。健把牛奶掉在那里了。美英放下了足球。明浩移步去卫生间。简抓住了足球。梨花走向卫生间。简去了卫生间。明浩去了卧室。明浩把苹果拿过去了。美英走到走廊。简走向走廊。梨花朝卧室走去。明浩把苹果掉了下来。明浩去了花园。梨花得到了苹果。健放下了足球。健接过足球。简走向卫生间。梨花留下了苹果。吉安离开了足球。美英回到卧室。梨花把苹果带到了那里。吉安得到了足球。美英走到走廊。健行至花园。美英回到厨房。明浩向厨房走去。健把足球扔掉了。梨花游至花园。明浩拿到了牛奶。丽华接过足球。丽华离开了足球。简抓住了足球。明浩去了卧室。明浩把牛奶掉在那里了。明浩去了办公室。梨花掉下了苹果。简行去洗手间。坚迁至花园。健接过苹果。明浩走到走廊上。健留下了苹果。美英搬到了办公室。梨花走向卫生间。简抓起苹果。梨花朝走廊走去。明浩又回到了花园。明浩搬到了厨房。美英去了厨房。简回到卧室。简拿到了牛奶。美英搬到了卧室。明浩去了卧室。明浩回到厨房。美英去了花园。明浩去了花园。美英去了卫生间。美英搬到了办公室。健把苹果掉了。明浩向厨房走去。丽华回到办公室。简把足球留在那里。健去了花园。明浩去了办公室。健把牛奶倒掉了。简走向浴室。
+</context>
+
+QUESTION: 花园之前的足球在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",浴室,"Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+健接过足球。 健接过足球.
+</context>
+
+QUESTION: 花园之前的足球在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+健接过足球。 健接过足球。 健去了花园。 美英接过足球。 坚迁至花园.
+</context>
+
+QUESTION: 花园之前的足球在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different events mixed with unrelated information. Answer the question by identifying and combining three relevant facts.
+
+<context>
+健接过足球。 健接过足球。 健去了花园。 美英接过足球。 坚迁至花园。 健把足球扔掉了。 健把足球扔掉了。 美英去了花园。 健放下了足球。 健行至花园.
+</context>
+
+QUESTION: 花园之前的足球在哪里？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+394_zh,zh,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+走廊在浴室的西边。厨房在卫生间的东边。
+</context>
+
+QUESTION: 卫生间在什么西边？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",厨房,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+走廊在浴室的西边。 厨房在卫生间的东边.
+</context>
+
+QUESTION: 卫生间在什么西边？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+走廊在浴室的西边。 厨房在卫生间的东边.
+</context>
+
+QUESTION: 卫生间在什么西边？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+走廊在浴室的西边。 厨房在卫生间的东边.
+</context>
+
+QUESTION: 卫生间在什么西边？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+340_zh,zh,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+卧室在浴室的西边。厨房在卧室的西边。
+</context>
+
+QUESTION: 卫生间西边是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",卧室,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+卧室在浴室的西边。 厨房在卧室的西边.
+</context>
+
+QUESTION: 卫生间西边是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+卧室在浴室的西边。 厨房在卧室的西边.
+</context>
+
+QUESTION: 卫生间西边是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+卧室在浴室的西边。 厨房在卧室的西边.
+</context>
+
+QUESTION: 卫生间西边是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+306_zh,zh,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+浴室位于花园北侧。卧室位于花园的南面。
+</context>
+
+QUESTION: 花园的北面是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",浴室,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+浴室位于花园北侧。 卧室位于花园的南面.
+</context>
+
+QUESTION: 花园的北面是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+浴室位于花园北侧。 卧室位于花园的南面.
+</context>
+
+QUESTION: 花园的北面是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+浴室位于花园北侧。 卧室位于花园的南面.
+</context>
+
+QUESTION: 花园的北面是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+326_zh,zh,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+浴室位于走廊北侧。办公室位于走廊南侧。
+</context>
+
+QUESTION: 走廊南面是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",办公室,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+办公室位于走廊南侧。 浴室位于走廊北侧.
+</context>
+
+QUESTION: 走廊南面是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+办公室位于走廊南侧。 浴室位于走廊北侧.
+</context>
+
+QUESTION: 走廊南面是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+办公室位于走廊南侧。 浴室位于走廊北侧.
+</context>
+
+QUESTION: 走廊南面是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+377_zh,zh,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+走廊位于花园的北面。花园在厨房的北边。
+</context>
+
+QUESTION: 花园的北面是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",门厅,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+走廊位于花园的北面。 花园在厨房的北边.
+</context>
+
+QUESTION: 花园的北面是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+走廊位于花园的北面。 花园在厨房的北边.
+</context>
+
+QUESTION: 花园的北面是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+走廊位于花园的北面。 花园在厨房的北边.
+</context>
+
+QUESTION: 花园的北面是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+368_zh,zh,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+花园位于走廊北侧。走廊在浴室的北边。
+</context>
+
+QUESTION: 南边的走廊是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",花园,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+走廊在浴室的北边。 花园位于走廊北侧.
+</context>
+
+QUESTION: 南边的走廊是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+走廊在浴室的北边。 花园位于走廊北侧.
+</context>
+
+QUESTION: 南边的走廊是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+走廊在浴室的北边。 花园位于走廊北侧.
+</context>
+
+QUESTION: 南边的走廊是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+399_zh,zh,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+走廊位于卧室南面。厨房在卧室的北边。
+</context>
+
+QUESTION: 卧室的北边是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",厨房,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+厨房在卧室的北边。 走廊位于卧室南面.
+</context>
+
+QUESTION: 卧室的北边是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+厨房在卧室的北边。 走廊位于卧室南面.
+</context>
+
+QUESTION: 卧室的北边是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+厨房在卧室的北边。 走廊位于卧室南面.
+</context>
+
+QUESTION: 卧室的北边是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+374_zh,zh,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+厨房在办公室的东边。浴室在办公室的西边。
+</context>
+
+QUESTION: 办公室在西边？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",厨房,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+浴室在办公室的西边。 厨房在办公室的东边.
+</context>
+
+QUESTION: 办公室在西边？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+浴室在办公室的西边。 厨房在办公室的东边.
+</context>
+
+QUESTION: 办公室在西边？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+浴室在办公室的西边。 厨房在办公室的东边.
+</context>
+
+QUESTION: 办公室在西边？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+324_zh,zh,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+卧室在浴室的南面。走廊位于卧室南面。
+</context>
+
+QUESTION: 卫生间南边是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",卧室,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+卧室在浴室的南面。 走廊位于卧室南面.
+</context>
+
+QUESTION: 卫生间南边是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+卧室在浴室的南面。 走廊位于卧室南面.
+</context>
+
+QUESTION: 卫生间南边是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+卧室在浴室的南面。 走廊位于卧室南面.
+</context>
+
+QUESTION: 卫生间南边是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+358_zh,zh,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+走廊位于办公室北侧。厨房在走廊的北边。
+</context>
+
+QUESTION: 南边的走廊是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",厨房,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+走廊位于办公室北侧。 厨房在走廊的北边.
+</context>
+
+QUESTION: 南边的走廊是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+走廊位于办公室北侧。 厨房在走廊的北边.
+</context>
+
+QUESTION: 南边的走廊是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on the relationship between two entities.
+
+<context>
+走廊位于办公室北侧。 厨房在走廊的北边.
+</context>
+
+QUESTION: 南边的走廊是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+458_zh,zh,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+梨花朝走廊走去。国威游园。志浩拿着苹果去了那里。国伟走到厨房。志浩留下了苹果。卫国抢走了那里的足球。卫国放下了足球。志浩搬到了卧室。志浩走到了走廊上。国威行至花园。志浩去了厨房。卫国抢走了那里的足球。卫国把足球扔掉了。国伟搬到了卫生间。丽华回到办公室。卫国在那里捡起了足球。志浩走到走廊上。卫国把足球掉了。卫国在那里拿到了足球。梨花搬到了花园里。卫国把足球传给了丽华。志浩去了办公室。国威去了花园。丽华把足球送给了国伟。
+</context>
+
+QUESTION: 谁把足球给了国威？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",丽华,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+卫国在那里拿到了足球。 卫国抢走了那里的足球.
+</context>
+
+QUESTION: 谁把足球给了国威？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+卫国在那里拿到了足球。 卫国抢走了那里的足球。 卫国抢走了那里的足球。 卫国把足球掉了。 卫国在那里捡起了足球.
+</context>
+
+QUESTION: 谁把足球给了国威？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+卫国在那里拿到了足球。 卫国抢走了那里的足球。 卫国抢走了那里的足球。 卫国把足球掉了。 卫国在那里捡起了足球。 卫国把足球扔掉了。 丽华把足球送给了国伟。 卫国把足球传给了丽华。 卫国放下了足球。 国威游园.
+</context>
+
+QUESTION: 谁把足球给了国威？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+444_zh,zh,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+梨花抓起那里的苹果。志浩回到卧室。卫国去了办公室。丽华搬到办公室。梨花把苹果给了卫国。梨花朝走廊走去。国伟搬到了厨房。志浩向走廊走去。卫国去了花园。卫国前往厨房。伟国把苹果递给了国伟。国伟把苹果给了伟国。
+</context>
+
+QUESTION: 谁把苹果给了卫国？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",国威,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+伟国把苹果递给了国伟。 国伟把苹果给了伟国.
+</context>
+
+QUESTION: 谁把苹果给了卫国？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+伟国把苹果递给了国伟。 国伟把苹果给了伟国。 梨花把苹果给了卫国。 梨花抓起那里的苹果。 卫国去了花园.
+</context>
+
+QUESTION: 谁把苹果给了卫国？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+伟国把苹果递给了国伟。 国伟把苹果给了伟国。 梨花把苹果给了卫国。 梨花抓起那里的苹果。 卫国去了花园。 梨花朝走廊走去。 卫国去了办公室。 卫国前往厨房。 志浩向走廊走去。 志浩回到卧室.
+</context>
+
+QUESTION: 谁把苹果给了卫国？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+400_zh,zh,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+国伟在那里捡起了足球。国伟把足球送给了志豪。卫国回到卫生间。志浩抓起那里的牛奶。志浩把足球给了国伟。国伟把足球递给了志浩。志浩把足球递给了国伟。国伟把足球送给了志豪。
+</context>
+
+QUESTION: 国威把足球给了谁？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",志豪,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+国伟把足球送给了志豪。 国伟把足球送给了志豪.
+</context>
+
+QUESTION: 国威把足球给了谁？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+国伟把足球送给了志豪。 国伟把足球送给了志豪。 国伟在那里捡起了足球。 志浩把足球给了国伟。 志浩把足球递给了国伟.
+</context>
+
+QUESTION: 国威把足球给了谁？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+国伟把足球送给了志豪。 国伟把足球送给了志豪。 国伟在那里捡起了足球。 志浩把足球给了国伟。 志浩把足球递给了国伟。 国伟把足球递给了志浩。 志浩抓起那里的牛奶。 卫国回到卫生间.
+</context>
+
+QUESTION: 国威把足球给了谁？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+403_zh,zh,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+国伟在那里捡起了足球。志浩走到走廊上。卫国回到厨房。卫国走到走廊上。国威游园。国伟抓起那里的牛奶。卫国前往办公室。国伟把牛奶放在那里。国伟放下了足球。卫国走向走廊。国伟向厨房走去。志浩来到了花园。志浩接了那里的牛奶。丽华回到办公室。丽华搬到了厨房。志浩抓起那里的足球。卫国游至花园。国伟去了办公室。国伟去了厨房。志浩把牛奶掉了。志浩接了那里的牛奶。志浩去了卧室。志浩离开了足球。志浩把牛奶掉了。志浩抓起那里的牛奶。志浩向厨房走去。志浩把牛奶递给了丽花。丽花把牛奶递给国伟。国伟把牛奶倒掉了。志浩在那里买了牛奶。
+</context>
+
+QUESTION: 梨花给了国威什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",牛奶,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+卫国游至花园。 国威游园.
+</context>
+
+QUESTION: 梨花给了国威什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+卫国游至花园。 国威游园。 志浩把牛奶递给了丽花。 志浩来到了花园。 丽花把牛奶递给国伟.
+</context>
+
+QUESTION: 梨花给了国威什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+卫国游至花园。 国威游园。 志浩把牛奶递给了丽花。 志浩来到了花园。 丽花把牛奶递给国伟。 国伟抓起那里的牛奶。 志浩抓起那里的牛奶。 志浩接了那里的牛奶。 志浩接了那里的牛奶。 国伟把牛奶放在那里.
+</context>
+
+QUESTION: 梨花给了国威什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+431_zh,zh,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+梨花朝走廊走去。梨花走向卫生间。志浩一行人来到了办公室。卫国走向卫生间。梨花朝走廊走去。梨花回到花园。卫国游至花园。卫国走向走廊。卫国回到厨房。志浩在那里买了牛奶。梨花朝卧室走去。志浩走到走廊上。卫国走到了走廊上。志浩向卧室走去。卫国向卫生间走去。志浩把牛奶掉了。丽华在那里买了牛奶。梨花把牛奶递给了志浩。志浩把牛奶掉了。志浩把牛奶带到了那里。
+</context>
+
+QUESTION: 牛奶是谁给的？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",丽华,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+志浩把牛奶带到了那里。 丽华在那里买了牛奶.
+</context>
+
+QUESTION: 牛奶是谁给的？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+志浩把牛奶带到了那里。 丽华在那里买了牛奶。 志浩在那里买了牛奶。 梨花把牛奶递给了志浩。 志浩把牛奶掉了.
+</context>
+
+QUESTION: 牛奶是谁给的？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+志浩把牛奶带到了那里。 丽华在那里买了牛奶。 志浩在那里买了牛奶。 梨花把牛奶递给了志浩。 志浩把牛奶掉了。 志浩把牛奶掉了。 卫国回到厨房。 卫国向卫生间走去。 卫国走向卫生间。 卫国走到了走廊上.
+</context>
+
+QUESTION: 牛奶是谁给的？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+462_zh,zh,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+国伟走到卧室。国伟搬到了办公室。国伟向卫生间走去。丽华抓住了那里的足球。志浩回到了花园。丽华把足球掉了。丽华把足球带到了那里。梨花把苹果带到了那里。梨花留下了苹果。国伟去了办公室。梨花走到走廊。丽华把足球扔在那里。卫国去了厨房。丽华去了办公室。卫国把苹果带到了那里。志浩在那里买了牛奶。卫国又回到花园。卫国走向卫生间。卫国回到办公室。国伟去了卫生间。卫国把苹果给了梨花。志浩一行人来到了办公室。梨花回到走廊。志浩把牛奶递给卫国。
+</context>
+
+QUESTION: 谁收到了牛奶？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",卫国,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+志浩在那里买了牛奶。 志浩把牛奶递给卫国.
+</context>
+
+QUESTION: 谁收到了牛奶？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+志浩在那里买了牛奶。 志浩把牛奶递给卫国。 卫国去了厨房。 卫国把苹果带到了那里。 国伟去了卫生间.
+</context>
+
+QUESTION: 谁收到了牛奶？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+志浩在那里买了牛奶。 志浩把牛奶递给卫国。 卫国去了厨房。 卫国把苹果带到了那里。 国伟去了卫生间。 卫国走向卫生间。 国伟向卫生间走去。 梨花把苹果带到了那里。 丽华把足球带到了那里。 丽华把足球掉了.
+</context>
+
+QUESTION: 谁收到了牛奶？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+437_zh,zh,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+丽华搬到了卫生间。志浩向厨房走去。志浩接了那里的牛奶。志浩捡起了那里的足球。志浩把足球放在那里。志浩一行人来到了办公室。志浩拿起那里的苹果。丽华搬到办公室。卫国走到走廊上。志浩把苹果给了梨花。卫国去了办公室。梨花把苹果给了卫国。
+</context>
+
+QUESTION: 梨花把苹果给了谁？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",卫国,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+梨花把苹果给了卫国。 志浩把苹果给了梨花.
+</context>
+
+QUESTION: 梨花把苹果给了谁？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+梨花把苹果给了卫国。 志浩把苹果给了梨花。 志浩拿起那里的苹果。 志浩接了那里的牛奶。 志浩捡起了那里的足球.
+</context>
+
+QUESTION: 梨花把苹果给了谁？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+梨花把苹果给了卫国。 志浩把苹果给了梨花。 志浩拿起那里的苹果。 志浩接了那里的牛奶。 志浩捡起了那里的足球。 志浩把足球放在那里。 卫国走到走廊上。 志浩向厨房走去。 志浩一行人来到了办公室。 卫国去了办公室.
+</context>
+
+QUESTION: 梨花把苹果给了谁？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+426_zh,zh,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+志浩回到了花园。梨花朝花园走去。志浩带着足球去了那里。卫国行至花园。丽花把牛奶带到了那里。志浩把足球递给了丽华。丽华把足球递给了卫国。卫国放下了足球。国伟回到卫生间。梨花在那里得到了苹果。
+</context>
+
+QUESTION: 足球是谁给的？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",丽华,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+卫国放下了足球。 丽华把足球递给了卫国.
+</context>
+
+QUESTION: 足球是谁给的？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+卫国放下了足球。 丽华把足球递给了卫国。 志浩带着足球去了那里。 志浩把足球递给了丽华。 丽花把牛奶带到了那里.
+</context>
+
+QUESTION: 足球是谁给的？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+卫国放下了足球。 丽华把足球递给了卫国。 志浩带着足球去了那里。 志浩把足球递给了丽华。 丽花把牛奶带到了那里。 国伟回到卫生间。 卫国行至花园。 梨花在那里得到了苹果。 梨花朝花园走去。 志浩回到了花园.
+</context>
+
+QUESTION: 足球是谁给的？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+432_zh,zh,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+国伟去了卧室。国伟把足球带到了那里。国伟放下了足球。志浩抓起那里的牛奶。卫国行至花园。国威游园。志浩大步走向卫生间。卫国去了办公室。卫国又回到花园。志浩把牛奶倒掉了。梨花回到卧室。丽华在那里捡起了足球。国伟走到厨房。卫国去了卫生间。国伟去了办公室。卫国行至花园。丽华前往办公室。丽华把足球递给了国伟。梨花走到厨房。国伟放下了足球。国伟向卧室走去。卫国向厨房走去。国威走到走廊上。志浩一行人来到了办公室。志浩抓起那里的足球。国伟搬到了办公室。卫国回到卧室。志浩把足球扔掉了。梨花朝走廊走去。国伟回到厨房。志浩在那里拿到了足球。卫国走向卫生间。卫国前往厨房。丽华去了卫生间。志浩扔掉了足球。卫国前往卫生间。梨花把苹果带到了那里。梨花朝卧室走去。卫国抢了那里的牛奶。卫国把牛奶倒掉了。卫国去了厨房。丽华去了卫生间。丽花把牛奶带到了那里。卫国游至花园。国伟回到卫生间。志浩捡起了那里的足球。梨花把苹果给了国伟。国伟把苹果递给了丽花。丽花把牛奶倒掉了。卫国搬到了办公室。
+</context>
+
+QUESTION: 谁把苹果给了丽花？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",国威,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+梨花把苹果给了国伟。 国伟把苹果递给了丽花.
+</context>
+
+QUESTION: 谁把苹果给了丽花？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+梨花把苹果给了国伟。 国伟把苹果递给了丽花。 梨花把苹果带到了那里。 丽华把足球递给了国伟。 卫国行至花园.
+</context>
+
+QUESTION: 谁把苹果给了丽花？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+梨花把苹果给了国伟。 国伟把苹果递给了丽花。 梨花把苹果带到了那里。 丽华把足球递给了国伟。 卫国行至花园。 卫国行至花园。 梨花朝卧室走去。 卫国又回到花园。 丽花把牛奶带到了那里。 梨花走到厨房.
+</context>
+
+QUESTION: 谁把苹果给了丽花？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+438_zh,zh,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+卫国搬到了卧室。丽华把足球带到了那里。丽华把足球掉了。卫国去了卫生间。卫国搬到了卧室。丽华在那里拿到了足球。丽华把足球递给了国伟。国威把足球扔掉了。国伟搬到了卧室。丽华前往办公室。志浩回到办公室。国伟前往办公室。卫国又回到花园。国伟捡起了那里的苹果。国伟去了卫生间。国伟在那里捡起了足球。国伟走到厨房。国伟抓起那里的牛奶。国伟把苹果掉了下来。国伟把苹果带到了那里。国威走到走廊上。国威回到花园。卫国前往办公室。志浩来到了花园。卫国去了卧室。丽华去了厨房。国伟离开了苹果。志浩去了厨房。国伟回到厨房。国伟把足球递给了丽华。
+</context>
+
+QUESTION: 谁把足球给了丽华？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",国威,"Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+丽华把足球递给了国伟。 国伟把足球递给了丽华.
+</context>
+
+QUESTION: 谁把足球给了丽华？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+丽华把足球递给了国伟。 国伟把足球递给了丽华。 丽华在那里拿到了足球。 丽华把足球带到了那里。 丽华把足球掉了.
+</context>
+
+QUESTION: 谁把足球给了丽华？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts about different relationships mixed with unrelated information. Answer the question based on relationships involving three entities.
+
+<context>
+丽华把足球递给了国伟。 国伟把足球递给了丽华。 丽华在那里拿到了足球。 丽华把足球带到了那里。 丽华把足球掉了。 国伟在那里捡起了足球。 国威把足球扔掉了。 丽华去了厨房。 丽华前往办公室。 国伟把苹果带到了那里.
+</context>
+
+QUESTION: 谁把足球给了丽华？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+578_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+简搬到了厨房。丽华去了办公室。美英搬到了办公室。明浩搬到了花园里。
+</context>
+
+QUESTION: 美英在办公室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",是的,"Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+丽华去了办公室。 美英搬到了办公室.
+</context>
+
+QUESTION: 美英在办公室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+丽华去了办公室。 美英搬到了办公室。 简搬到了厨房。 明浩搬到了花园里.
+</context>
+
+QUESTION: 美英在办公室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+丽华去了办公室。 美英搬到了办公室。 简搬到了厨房。 明浩搬到了花园里.
+</context>
+
+QUESTION: 美英在办公室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+568_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+简前往厨房。梨花抓起那里的牛奶。美英回到走廊。明浩又回到了卫生间。丽花把牛奶倒掉了。明浩去了厨房。美英回到厨房。美英向卫生间走去。简又回到了花园。美英朝走廊走去。
+</context>
+
+QUESTION: 美英在办公室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",不,"Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+美英向卫生间走去。 美英回到厨房.
+</context>
+
+QUESTION: 美英在办公室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+美英向卫生间走去。 美英回到厨房。 简前往厨房。 美英回到走廊。 美英朝走廊走去.
+</context>
+
+QUESTION: 美英在办公室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+美英向卫生间走去。 美英回到厨房。 简前往厨房。 美英回到走廊。 美英朝走廊走去。 明浩又回到了卫生间。 明浩去了厨房。 简又回到了花园。 丽花把牛奶倒掉了。 梨花抓起那里的牛奶.
+</context>
+
+QUESTION: 美英在办公室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+551_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+丽华向厨房走去。明浩走到走廊上。
+</context>
+
+QUESTION: 明浩在卧室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",不,"Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+明浩走到走廊上。 丽华向厨房走去.
+</context>
+
+QUESTION: 明浩在卧室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+明浩走到走廊上。 丽华向厨房走去.
+</context>
+
+QUESTION: 明浩在卧室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+明浩走到走廊上。 丽华向厨房走去.
+</context>
+
+QUESTION: 明浩在卧室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+572_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+美英在那里拿到了苹果。简走向卫生间。明浩又回到了走廊。美英搬到了厨房。美英去了卫生间。简走到走廊上。美英去了花园。梨花朝走廊走去。简回到卧室。简回到厨房。
+</context>
+
+QUESTION: 丽华在走廊吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",是的,"Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+简走到走廊上。 简走向卫生间.
+</context>
+
+QUESTION: 丽华在走廊吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+简走到走廊上。 简走向卫生间。 梨花朝走廊走去。 美英去了卫生间。 美英去了花园.
+</context>
+
+QUESTION: 丽华在走廊吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+简走到走廊上。 简走向卫生间。 梨花朝走廊走去。 美英去了卫生间。 美英去了花园。 简回到卧室。 明浩又回到了走廊。 简回到厨房。 美英搬到了厨房。 美英在那里拿到了苹果.
+</context>
+
+QUESTION: 丽华在走廊吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+583_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+美英拿起那里的苹果。明浩回到办公室。美英留下了苹果。简走到走廊上。美英向花园走去。美英前往办公室。
+</context>
+
+QUESTION: 明浩在办公室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",是的,"Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+明浩回到办公室。 美英前往办公室.
+</context>
+
+QUESTION: 明浩在办公室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+明浩回到办公室。 美英前往办公室。 简走到走廊上。 美英向花园走去。 美英拿起那里的苹果.
+</context>
+
+QUESTION: 明浩在办公室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+明浩回到办公室。 美英前往办公室。 简走到走廊上。 美英向花园走去。 美英拿起那里的苹果。 美英留下了苹果.
+</context>
+
+QUESTION: 明浩在办公室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+539_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+梨花抓起那里的牛奶。坚迁至花园。美英把苹果拿过去。美英去了走廊。
+</context>
+
+QUESTION: 健在卧室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",不,"Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+美英去了走廊。 坚迁至花园.
+</context>
+
+QUESTION: 健在卧室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+美英去了走廊。 坚迁至花园。 梨花抓起那里的牛奶。 美英把苹果拿过去.
+</context>
+
+QUESTION: 健在卧室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+美英去了走廊。 坚迁至花园。 梨花抓起那里的牛奶。 美英把苹果拿过去.
+</context>
+
+QUESTION: 健在卧室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+592_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+简搬到了卧室。简走向走廊。健拿起了那里的苹果。简又回到了花园。丽花在那里接了牛奶。梨花去了卧室。
+</context>
+
+QUESTION: 健在花园里吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",是的,"Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+简又回到了花园。 梨花去了卧室.
+</context>
+
+QUESTION: 健在花园里吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+简又回到了花园。 梨花去了卧室。 健拿起了那里的苹果。 简走向走廊。 丽花在那里接了牛奶.
+</context>
+
+QUESTION: 健在花园里吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+简又回到了花园。 梨花去了卧室。 健拿起了那里的苹果。 简走向走廊。 丽花在那里接了牛奶。 简搬到了卧室.
+</context>
+
+QUESTION: 健在花园里吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+506_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+健把苹果带到了那里。简去了卫生间。健搬到了办公室。丽花在那里接了牛奶。
+</context>
+
+QUESTION: 健在走廊吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",不,"Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+简去了卫生间。 健搬到了办公室.
+</context>
+
+QUESTION: 健在走廊吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+简去了卫生间。 健搬到了办公室。 丽花在那里接了牛奶。 健把苹果带到了那里.
+</context>
+
+QUESTION: 健在走廊吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+简去了卫生间。 健搬到了办公室。 丽花在那里接了牛奶。 健把苹果带到了那里.
+</context>
+
+QUESTION: 健在走廊吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+547_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+美英拿起那里的苹果。简把足球带到了那里。美英放下苹果。健把足球扔掉了。丽华在那里买了牛奶。明浩去了厨房。简走向走廊。丽花把牛奶倒在那里。丽花在那里接了牛奶。明浩走到走廊。
+</context>
+
+QUESTION: 明浩在浴室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",不,"Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+明浩去了厨房。 明浩走到走廊.
+</context>
+
+QUESTION: 明浩在浴室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+明浩去了厨房。 明浩走到走廊。 简走向走廊。 丽花在那里接了牛奶。 丽花把牛奶倒在那里.
+</context>
+
+QUESTION: 明浩在浴室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+明浩去了厨房。 明浩走到走廊。 简走向走廊。 丽花在那里接了牛奶。 丽花把牛奶倒在那里。 简把足球带到了那里。 健把足球扔掉了。 丽华在那里买了牛奶。 美英放下苹果。 美英拿起那里的苹果.
+</context>
+
+QUESTION: 明浩在浴室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+548_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+梨花捡起了那里的苹果。丽华搬到了厨房。美英去了办公室。梨花游至花园。梨花走到走廊。梨花把苹果扔掉了。
+</context>
+
+QUESTION: 丽华在走廊吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",是的,"Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+梨花走到走廊。 丽华搬到了厨房.
+</context>
+
+QUESTION: 丽华在走廊吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+梨花走到走廊。 丽华搬到了厨房。 美英去了办公室。 梨花游至花园。 梨花捡起了那里的苹果.
+</context>
+
+QUESTION: 丽华在走廊吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the yes-no question with either ""Yes"" or ""No,"" based only on the provided facts.
+
+<context>
+梨花走到走廊。 丽华搬到了厨房。 美英去了办公室。 梨花游至花园。 梨花捡起了那里的苹果。 梨花把苹果扔掉了.
+</context>
+
+QUESTION: 丽华在走廊吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+680_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+美英回到卧室。明浩去了厨房。明浩去了卧室。梨花回到走廊。简去了办公室。丽华搬到了卧室。明浩搬到了办公室。明浩去了花园。美英去了卫生间。明浩拿着足球去了。美英游至花园。明浩把足球递给美英。美英把足球传给了明浩。明浩把足球传给美英。美英把足球传给了明浩。明浩把足球传给美英。
+</context>
+
+QUESTION: 明浩背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",没有任何,"Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+明浩拿着足球去了。 明浩去了花园.
+</context>
+
+QUESTION: 明浩背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+明浩拿着足球去了。 明浩去了花园。 明浩去了卧室。 明浩去了厨房。 美英把足球传给了明浩.
+</context>
+
+QUESTION: 明浩背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+明浩拿着足球去了。 明浩去了花园。 明浩去了卧室。 明浩去了厨房。 美英把足球传给了明浩。 美英把足球传给了明浩。 明浩把足球递给美英。 明浩把足球传给美英。 明浩把足球传给美英。 明浩搬到了办公室.
+</context>
+
+QUESTION: 明浩背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+659_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+明浩在那里拿到了足球。明浩抓起那里的苹果。
+</context>
+
+QUESTION: 明浩背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",二,"Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+明浩在那里拿到了足球。 明浩抓起那里的苹果.
+</context>
+
+QUESTION: 明浩背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+明浩在那里拿到了足球。 明浩抓起那里的苹果.
+</context>
+
+QUESTION: 明浩背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+明浩在那里拿到了足球。 明浩抓起那里的苹果.
+</context>
+
+QUESTION: 明浩背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+606_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+丽花把牛奶带到了那里。简在那里拿到了足球。美英去了卫生间。丽花放下牛奶。美英回到花园。美英把牛奶拿过去了。美英把牛奶掉在那里了。梨花朝卧室走去。简去了办公室。健抓起那里的苹果。
+</context>
+
+QUESTION: 美英背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",没有任何,"Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+美英去了卫生间。 美英把牛奶掉在那里了.
+</context>
+
+QUESTION: 美英背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+美英去了卫生间。 美英把牛奶掉在那里了。 简在那里拿到了足球。 美英回到花园。 美英把牛奶拿过去了.
+</context>
+
+QUESTION: 美英背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+美英去了卫生间。 美英把牛奶掉在那里了。 简在那里拿到了足球。 美英回到花园。 美英把牛奶拿过去了。 梨花朝卧室走去。 健抓起那里的苹果。 丽花把牛奶带到了那里。 丽花放下牛奶。 简去了办公室.
+</context>
+
+QUESTION: 美英背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+612_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+简把牛奶带到了那里。明浩去了花园。简去了办公室。健把牛奶掉了。梨花抓起那里的苹果。梨花放下了苹果。梨花回到走廊。丽华抓住了那里的足球。简在那里买了牛奶。丽华放下了足球。
+</context>
+
+QUESTION: 丽华背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",没有任何,"Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+丽华放下了足球。 丽华抓住了那里的足球.
+</context>
+
+QUESTION: 丽华背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+丽华放下了足球。 丽华抓住了那里的足球。 简把牛奶带到了那里。 简去了办公室。 梨花回到走廊.
+</context>
+
+QUESTION: 丽华背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+丽华放下了足球。 丽华抓住了那里的足球。 简把牛奶带到了那里。 简去了办公室。 梨花回到走廊。 简在那里买了牛奶。 明浩去了花园。 梨花抓起那里的苹果。 健把牛奶掉了。 梨花放下了苹果.
+</context>
+
+QUESTION: 丽华背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+640_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+简回到走廊。明浩去了走廊。梨花回到厨房。简去了卧室。明浩搬到了花园里。梨花在那里得到了苹果。梨花把苹果递给美英。丽华在那里拿到了足球。美英把苹果递给丽花。梨花把苹果给了美英。简去了办公室。美英把苹果给了丽花。
+</context>
+
+QUESTION: 美英背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",没有任何,"Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+丽华在那里拿到了足球。 梨花把苹果递给美英.
+</context>
+
+QUESTION: 美英背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+丽华在那里拿到了足球。 梨花把苹果递给美英。 简回到走廊。 梨花把苹果给了美英。 明浩去了走廊.
+</context>
+
+QUESTION: 美英背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+丽华在那里拿到了足球。 梨花把苹果递给美英。 简回到走廊。 梨花把苹果给了美英。 明浩去了走廊。 美英把苹果递给丽花。 简去了卧室。 梨花在那里得到了苹果。 梨花回到厨房。 美英把苹果给了丽花.
+</context>
+
+QUESTION: 美英背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+608_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+简去了卫生间。简抓住了那里的足球。明浩走到走廊。丽华走到走廊上。美英拿起那里的苹果。健把足球扔掉了。梨花行至卧室。美英去了厨房。健在那里捡起了足球。丽华在那里买了牛奶。
+</context>
+
+QUESTION: 丽华背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",一,"Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+丽华走到走廊上。 简去了卫生间.
+</context>
+
+QUESTION: 丽华背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+丽华走到走廊上。 简去了卫生间。 美英去了厨房。 梨花行至卧室。 简抓住了那里的足球.
+</context>
+
+QUESTION: 丽华背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+丽华走到走廊上。 简去了卫生间。 美英去了厨房。 梨花行至卧室。 简抓住了那里的足球。 丽华在那里买了牛奶。 健在那里捡起了足球。 美英拿起那里的苹果。 明浩走到走廊。 健把足球扔掉了.
+</context>
+
+QUESTION: 丽华背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+665_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+美英前往办公室。简走向走廊。美英把足球带到了那里。明浩去了花园。健拿起了那里的苹果。美英把足球传给了丽华。
+</context>
+
+QUESTION: 美英背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",没有任何,"Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+美英把足球带到了那里。 美英把足球传给了丽华.
+</context>
+
+QUESTION: 美英背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+美英把足球带到了那里。 美英把足球传给了丽华。 美英前往办公室。 简走向走廊。 健拿起了那里的苹果.
+</context>
+
+QUESTION: 美英背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+美英把足球带到了那里。 美英把足球传给了丽华。 美英前往办公室。 简走向走廊。 健拿起了那里的苹果。 明浩去了花园.
+</context>
+
+QUESTION: 美英背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+635_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+梨花行至卧室。简回到办公室。健在那里捡起了足球。明浩又回到了花园。美英搬到了厨房。梨花在那里得到了苹果。美英去了卧室。简走向卧室。
+</context>
+
+QUESTION: 丽华背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",一,"Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+简走向卧室。 美英去了卧室.
+</context>
+
+QUESTION: 丽华背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+简走向卧室。 美英去了卧室。 梨花行至卧室。 健在那里捡起了足球。 美英搬到了厨房.
+</context>
+
+QUESTION: 丽华背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+简走向卧室。 美英去了卧室。 梨花行至卧室。 健在那里捡起了足球。 美英搬到了厨房。 梨花在那里得到了苹果。 明浩又回到了花园。 简回到办公室.
+</context>
+
+QUESTION: 丽华背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+641_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+简去了卧室。美英去了走廊。梨花往走廊走去。美英在那里买了牛奶。美英把牛奶给了丽花。简搬到了厨房。美英捡起了那里的足球。美英把足球传给了丽华。丽花放下牛奶。丽华把足球递给美英。美英把足球递给了丽华。丽华把足球递给美英。
+</context>
+
+QUESTION: 丽华背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",没有任何,"Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+美英把足球递给了丽华。 简去了卧室.
+</context>
+
+QUESTION: 丽华背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+美英把足球递给了丽华。 简去了卧室。 美英把足球传给了丽华。 丽花放下牛奶。 美英把牛奶给了丽花.
+</context>
+
+QUESTION: 丽华背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+美英把足球递给了丽华。 简去了卧室。 美英把足球传给了丽华。 丽花放下牛奶。 美英把牛奶给了丽花。 梨花往走廊走去。 丽华把足球递给美英。 丽华把足球递给美英。 简搬到了厨房。 美英去了走廊.
+</context>
+
+QUESTION: 丽华背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+615_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+美英游至花园。美英走到卧室。梨花走向卫生间。简在那里买了牛奶。简把牛奶递给了明浩。简去了卧室。梨花回到卧室。明浩把牛奶掉了。明浩又回到了卫生间。美英搬到了花园里。美英走到走廊。美英回到卫生间。
+</context>
+
+QUESTION: 明浩背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",没有任何,"Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+明浩又回到了卫生间。 简把牛奶递给了明浩.
+</context>
+
+QUESTION: 明浩背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+明浩又回到了卫生间。 简把牛奶递给了明浩。 明浩把牛奶掉了。 美英走到走廊。 美英游至花园.
+</context>
+
+QUESTION: 明浩背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the counting question by identifying and counting the relevant items, then provide the correct number.
+
+<context>
+明浩又回到了卫生间。 简把牛奶递给了明浩。 明浩把牛奶掉了。 美英走到走廊。 美英游至花园。 美英走到卧室。 美英回到卫生间。 梨花走向卫生间。 梨花回到卧室。 简去了卧室.
+</context>
+
+QUESTION: 明浩背着多少东西？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+792_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+美英走向卫生间。简在那里得到了苹果。明浩在那里拿到了足球。梨花向卫生间走去。明浩又回到了卫生间。明浩去了办公室。
+</context>
+
+QUESTION: 明浩背的是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",足球,"Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+明浩在那里拿到了足球。 明浩去了办公室.
+</context>
+
+QUESTION: 明浩背的是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+明浩在那里拿到了足球。 明浩去了办公室。 明浩又回到了卫生间。 梨花向卫生间走去。 美英走向卫生间.
+</context>
+
+QUESTION: 明浩背的是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+明浩在那里拿到了足球。 明浩去了办公室。 明浩又回到了卫生间。 梨花向卫生间走去。 美英走向卫生间。 简在那里得到了苹果.
+</context>
+
+QUESTION: 明浩背的是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+764_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+明浩在那里拿到了苹果。简回到办公室。简走向卫生间。美英向花园走去。美英向厨房走去。丽华向厨房走去。美英去了走廊。美英朝卧室走去。明浩搬到了厨房。丽花在那里接了牛奶。
+</context>
+
+QUESTION: 丽华背着什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",牛奶,"Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+简走向卫生间。 美英向花园走去.
+</context>
+
+QUESTION: 丽华背着什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+简走向卫生间。 美英向花园走去。 丽华向厨房走去。 丽花在那里接了牛奶。 美英向厨房走去.
+</context>
+
+QUESTION: 丽华背着什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+简走向卫生间。 美英向花园走去。 丽华向厨房走去。 丽花在那里接了牛奶。 美英向厨房走去。 美英朝卧室走去。 美英去了走廊。 简回到办公室。 明浩在那里拿到了苹果。 明浩搬到了厨房.
+</context>
+
+QUESTION: 丽华背着什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+785_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+美英把足球带到了那里。梨花回到走廊。
+</context>
+
+QUESTION: 美英背着什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",足球,"Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+美英把足球带到了那里。 梨花回到走廊.
+</context>
+
+QUESTION: 美英背着什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+美英把足球带到了那里。 梨花回到走廊.
+</context>
+
+QUESTION: 美英背着什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+美英把足球带到了那里。 梨花回到走廊.
+</context>
+
+QUESTION: 美英背着什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+736_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+美英向厨房走去。简搬到了卧室。明浩向走廊走去。美英去了走廊。丽华在那里拿到了足球。梨花去了卧室。丽华离开了足球。丽华在那里拿到了足球。丽华离开了足球。丽华去了办公室。
+</context>
+
+QUESTION: 丽华背着什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",没有什么,"Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+丽华在那里拿到了足球。 丽华在那里拿到了足球.
+</context>
+
+QUESTION: 丽华背着什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+丽华在那里拿到了足球。 丽华在那里拿到了足球。 丽华去了办公室。 美英向厨房走去。 梨花去了卧室.
+</context>
+
+QUESTION: 丽华背着什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+丽华在那里拿到了足球。 丽华在那里拿到了足球。 丽华去了办公室。 美英向厨房走去。 梨花去了卧室。 丽华离开了足球。 丽华离开了足球。 简搬到了卧室。 美英去了走廊。 明浩向走廊走去.
+</context>
+
+QUESTION: 丽华背着什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+796_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+美英回到花园。简走到走廊上。梨花抓起那里的苹果。丽华把足球带到了那里。丽华搬到了卧室。明浩接了那里的牛奶。简行去洗手间。简搬到了卧室。梨花放下了苹果。简去了厨房。
+</context>
+
+QUESTION: 明浩背的是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",牛奶,"Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+明浩接了那里的牛奶。 简行去洗手间.
+</context>
+
+QUESTION: 明浩背的是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+明浩接了那里的牛奶。 简行去洗手间。 美英回到花园。 简走到走廊上。 丽华把足球带到了那里.
+</context>
+
+QUESTION: 明浩背的是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+明浩接了那里的牛奶。 简行去洗手间。 美英回到花园。 简走到走廊上。 丽华把足球带到了那里。 简去了厨房。 梨花抓起那里的苹果。 梨花放下了苹果。 简搬到了卧室。 丽华搬到了卧室.
+</context>
+
+QUESTION: 明浩背的是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+710_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+明浩向走廊走去。丽华前往办公室。简回到走廊。美英拿起那里的苹果。健行至花园。美英搬到了办公室。美英走向卫生间。明浩去了花园。
+</context>
+
+QUESTION: 美英背着什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",苹果,"Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+美英走向卫生间。 美英拿起那里的苹果.
+</context>
+
+QUESTION: 美英背着什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+美英走向卫生间。 美英拿起那里的苹果。 简回到走廊。 明浩向走廊走去。 明浩去了花园.
+</context>
+
+QUESTION: 美英背着什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+美英走向卫生间。 美英拿起那里的苹果。 简回到走廊。 明浩向走廊走去。 明浩去了花园。 健行至花园。 丽华前往办公室。 美英搬到了办公室.
+</context>
+
+QUESTION: 美英背着什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+782_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+美英回到办公室。美英走到走廊上。明浩去了卫生间。简行进了卧室。丽华在那里拿到了足球。丽花在那里接了牛奶。美英走向卫生间。明浩向厨房走去。丽华前往办公室。明浩走到走廊。明浩向花园走去。美英向厨房走去。丽花留下了牛奶。明浩抓起那里的苹果。明浩扔掉了苹果。明浩把苹果拿过去了。
+</context>
+
+QUESTION: 明浩背的是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",苹果,"Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+明浩向花园走去。 明浩去了卫生间.
+</context>
+
+QUESTION: 明浩背的是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+明浩向花园走去。 明浩去了卫生间。 明浩走到走廊。 明浩向厨房走去。 明浩抓起那里的苹果.
+</context>
+
+QUESTION: 明浩背的是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+明浩向花园走去。 明浩去了卫生间。 明浩走到走廊。 明浩向厨房走去。 明浩抓起那里的苹果。 明浩把苹果拿过去了。 明浩扔掉了苹果。 美英走到走廊上。 美英走向卫生间。 美英向厨房走去.
+</context>
+
+QUESTION: 明浩背的是什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+773_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+简把牛奶带到了那里。简前往办公室。美英向卫生间走去。健把牛奶掉了。明浩拿着足球去了。简抓起那里的牛奶。美英去了卧室。明浩搬到了卧室。
+</context>
+
+QUESTION: 健带着什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",牛奶,"Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+美英向卫生间走去。 健把牛奶掉了.
+</context>
+
+QUESTION: 健带着什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+美英向卫生间走去。 健把牛奶掉了。 简抓起那里的牛奶。 简把牛奶带到了那里。 明浩拿着足球去了.
+</context>
+
+QUESTION: 健带着什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+美英向卫生间走去。 健把牛奶掉了。 简抓起那里的牛奶。 简把牛奶带到了那里。 明浩拿着足球去了。 美英去了卧室。 简前往办公室。 明浩搬到了卧室.
+</context>
+
+QUESTION: 健带着什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+719_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+丽华回到办公室。美英游至花园。梨花朝花园走去。简去了厨房。简去了办公室。美英回到办公室。健行至花园。美英搬到了厨房。梨花去了卧室。美英朝走廊走去。明浩去了花园。梨花回到走廊。美英在那里拿到了足球。明浩去了卫生间。美英把足球掉了。明浩又回到了花园。
+</context>
+
+QUESTION: 美英背着什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",没有什么,"Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+美英在那里拿到了足球。 美英游至花园.
+</context>
+
+QUESTION: 美英背着什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+美英在那里拿到了足球。 美英游至花园。 美英把足球掉了。 美英朝走廊走去。 明浩去了卫生间.
+</context>
+
+QUESTION: 美英背着什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+美英在那里拿到了足球。 美英游至花园。 美英把足球掉了。 美英朝走廊走去。 明浩去了卫生间。 梨花去了卧室。 梨花回到走廊。 梨花朝花园走去。 美英回到办公室。 明浩去了花园.
+</context>
+
+QUESTION: 美英背着什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+730_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+明浩前往办公室。健搬到了办公室。美英走到走廊。明浩去了花园。简搬到了卧室。梨花回到花园。简回到浴室。明浩回到厨房。丽华前往办公室。简走到走廊上。明浩向走廊走去。简走向卧室。简走向走廊。美英搬到了办公室。梨花行至卧室。健行至花园。美英走到卧室。梨花回到走廊。梨花朝卧室走去。简去了厨房。简走向卧室。美英搬到了厨房。丽华搬到办公室。梨花走到走廊。丽华向厨房走去。明浩向卧室走去。梨花回到卫生间。梨花去了卧室。梨花回到走廊。明浩去了厨房。丽华前往办公室。简走向卫生间。简又回到了花园。美英去了卫生间。美英一路前往办公室。简去了卧室。梨花朝花园走去。丽华去了办公室。健搬到了办公室。简前往厨房。美英走到厨房。简走向浴室。简把牛奶带到了那里。健把牛奶放在那里。
+</context>
+
+QUESTION: 健带着什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",没有什么,"Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+美英去了卫生间。 健把牛奶放在那里.
+</context>
+
+QUESTION: 健带着什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+美英去了卫生间。 健把牛奶放在那里。 美英走到走廊。 梨花回到卫生间。 梨花朝卧室走去.
+</context>
+
+QUESTION: 健带着什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question by identifying all relevant items and listing them in the correct format.
+
+<context>
+美英去了卫生间。 健把牛奶放在那里。 美英走到走廊。 梨花回到卫生间。 梨花朝卧室走去。 梨花去了卧室。 梨花行至卧室。 简走向卫生间。 梨花回到走廊。 梨花回到走廊.
+</context>
+
+QUESTION: 健带着什么？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+817_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+简走到走廊上。明浩已经不在卧室了。明浩已经不在浴室了。健在办公室。美英在卧室里。梨花回到厨房。美英已经不在卧室里了。美英向花园走去。美英在卧室里。美英向厨房走去。
+</context>
+
+QUESTION: 丽华在厨房吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",是的,"Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+美英向厨房走去。 梨花回到厨房.
+</context>
+
+QUESTION: 丽华在厨房吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+美英向厨房走去。 梨花回到厨房。 美英在卧室里。 美英在卧室里。 美英已经不在卧室里了.
+</context>
+
+QUESTION: 丽华在厨房吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+美英向厨房走去。 梨花回到厨房。 美英在卧室里。 美英在卧室里。 美英已经不在卧室里了。 简走到走廊上。 美英向花园走去。 明浩已经不在卧室了。 明浩已经不在浴室了。 健在办公室.
+</context>
+
+QUESTION: 丽华在厨房吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+876_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+健已经不在办公室了。丽华回到办公室。美英已经不在浴室里了。丽华搬到了厨房。美英在卧室里。简又回到了花园。
+</context>
+
+QUESTION: 丽华在浴室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",不,"Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+美英已经不在浴室里了。 美英在卧室里.
+</context>
+
+QUESTION: 丽华在浴室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+美英已经不在浴室里了。 美英在卧室里。 丽华搬到了厨房。 丽华回到办公室。 简又回到了花园.
+</context>
+
+QUESTION: 丽华在浴室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+美英已经不在浴室里了。 美英在卧室里。 丽华搬到了厨房。 丽华回到办公室。 简又回到了花园。 健已经不在办公室了.
+</context>
+
+QUESTION: 丽华在浴室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+834_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+丽华在走廊里。简回到厨房。明浩在浴室里。明浩回到卧室。
+</context>
+
+QUESTION: 明浩在厨房吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",不,"Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+简回到厨房。 明浩在浴室里.
+</context>
+
+QUESTION: 明浩在厨房吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+简回到厨房。 明浩在浴室里。 明浩回到卧室。 丽华在走廊里.
+</context>
+
+QUESTION: 明浩在厨房吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+简回到厨房。 明浩在浴室里。 明浩回到卧室。 丽华在走廊里.
+</context>
+
+QUESTION: 明浩在厨房吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+806_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+丽华向厨房走去。健不在花园里。美英不在浴室。健已经不在走廊里了。梨花在花园里。丽华前往办公室。
+</context>
+
+QUESTION: 健在走廊吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",不,"Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+健已经不在走廊里了。 丽华向厨房走去.
+</context>
+
+QUESTION: 健在走廊吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+健已经不在走廊里了。 丽华向厨房走去。 美英不在浴室。 丽华前往办公室。 健不在花园里.
+</context>
+
+QUESTION: 健在走廊吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+健已经不在走廊里了。 丽华向厨房走去。 美英不在浴室。 丽华前往办公室。 健不在花园里。 梨花在花园里.
+</context>
+
+QUESTION: 健在走廊吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+815_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+健不在浴室。简又回到了花园。
+</context>
+
+QUESTION: 健在花园里吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",是的,"Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+简又回到了花园。 健不在浴室.
+</context>
+
+QUESTION: 健在花园里吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+简又回到了花园。 健不在浴室.
+</context>
+
+QUESTION: 健在花园里吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+简又回到了花园。 健不在浴室.
+</context>
+
+QUESTION: 健在花园里吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+867_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+简走到走廊上。简去了卧室。
+</context>
+
+QUESTION: 健在卧室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",是的,"Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+简去了卧室。 简走到走廊上.
+</context>
+
+QUESTION: 健在卧室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+简去了卧室。 简走到走廊上.
+</context>
+
+QUESTION: 健在卧室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+简去了卧室。 简走到走廊上.
+</context>
+
+QUESTION: 健在卧室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+889_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+健已经不在浴室了。明浩已经不在卧室了。明浩已经不在花园里了。明浩已经不在办公室了。
+</context>
+
+QUESTION: 健在浴室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",不,"Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+健已经不在浴室了。 明浩已经不在卧室了.
+</context>
+
+QUESTION: 健在浴室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+健已经不在浴室了。 明浩已经不在卧室了。 明浩已经不在办公室了。 明浩已经不在花园里了.
+</context>
+
+QUESTION: 健在浴室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+健已经不在浴室了。 明浩已经不在卧室了。 明浩已经不在办公室了。 明浩已经不在花园里了.
+</context>
+
+QUESTION: 健在浴室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+842_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+简去了卧室。明浩不在厨房。
+</context>
+
+QUESTION: 明浩在厨房吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",不,"Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+明浩不在厨房。 简去了卧室.
+</context>
+
+QUESTION: 明浩在厨房吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+明浩不在厨房。 简去了卧室.
+</context>
+
+QUESTION: 明浩在厨房吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+明浩不在厨房。 简去了卧室.
+</context>
+
+QUESTION: 明浩在厨房吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+828_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+明浩不在花园里。美英走到走廊上。简行去洗手间。明浩去了厨房。丽华在浴室里。美英已经不在走廊里了。美英不在办公室。简走到走廊上。
+</context>
+
+QUESTION: 丽华在浴室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",是的,"Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+丽华在浴室里。 简行去洗手间.
+</context>
+
+QUESTION: 丽华在浴室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+丽华在浴室里。 简行去洗手间。 简走到走廊上。 明浩去了厨房。 美英走到走廊上.
+</context>
+
+QUESTION: 丽华在浴室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+丽华在浴室里。 简行去洗手间。 简走到走廊上。 明浩去了厨房。 美英走到走廊上。 美英不在办公室。 美英已经不在走廊里了。 明浩不在花园里.
+</context>
+
+QUESTION: 丽华在浴室吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
+829_zh,zh,"Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+健不在卧室。简在浴室里。
+</context>
+
+QUESTION: 健在花园里吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}",不,"Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+健不在卧室。 简在浴室里.
+</context>
+
+QUESTION: 健在花园里吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+健不在卧室。 简在浴室里.
+</context>
+
+QUESTION: 健在花园里吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}","Read the provided text, which contains facts mixed with unrelated information. Answer the question while accurately interpreting negation.
+
+<context>
+健不在卧室。 简在浴室里.
+</context>
+
+QUESTION: 健在花园里吗？?
+
+Format your response strictly in JSON, and output the answer only.
+{
+    ""ANSWER"":     
+}"
